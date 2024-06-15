@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:teia_dart/domain/entities/event.dart';
-import 'package:teia_dart/domain/entities/event_type.dart';
-import 'package:teia_dart/domain/teia.dart';
+import 'package:teia_dart/core/domain/entities/event.dart';
+import 'package:teia_dart/core/domain/entities/event_type.dart';
+import 'package:teia_dart/core/domain/teia.dart';
 
 class MyEvent extends Event {
   MyEvent({this.data = ""}) : super(type: EventType(type: 'my_event'));

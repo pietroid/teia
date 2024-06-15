@@ -1,4 +1,4 @@
-import 'package:teia_dart/domain/entities/event_type.dart';
+import 'package:teia_dart/core/domain/entities/event_type.dart';
 
 abstract class Event {
   final DateTime time;

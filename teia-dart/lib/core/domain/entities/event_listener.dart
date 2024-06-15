@@ -1,4 +1,4 @@
-import 'package:teia_dart/domain/entities/event.dart';
+import 'package:teia_dart/core/domain/entities/event.dart';
 
 class EventListener {
   final bool Function(Event event) on;

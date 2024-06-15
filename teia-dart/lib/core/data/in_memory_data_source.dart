@@ -1,5 +1,5 @@
-import 'package:teia_dart/data/data_source_adapter.dart';
-import 'package:teia_dart/domain/entities/event.dart';
+import 'package:teia_dart/core/data/data_source_adapter.dart';
+import 'package:teia_dart/core/domain/entities/event.dart';
 
 class InMemoryDataSource extends DataSourceAdapter {
   final List<Event> _events = [];

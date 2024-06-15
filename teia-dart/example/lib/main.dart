@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:teia_dart/domain/teia.dart';
+import 'package:teia_dart/core/domain/teia.dart';
 import 'package:teia_dart_example/list_page.dart';
 
 void main() {

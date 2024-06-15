@@ -1,5 +1,9 @@
-import 'package:teia_dart/domain/entities/event_list_extensions.dart';
-import 'package:teia_dart/teia_dart.dart';
+import 'package:teia_dart/core/data/in_memory_data_source.dart';
+import 'package:teia_dart/core/data/teia_configurations.dart';
+import 'package:teia_dart/core/domain/entities/event.dart';
+import 'package:teia_dart/core/domain/entities/event_list_extensions.dart';
+import 'package:teia_dart/core/domain/entities/event_listener.dart';
+import 'package:teia_dart/core/presentation/teia_interface.dart';
 
 class Teia implements TeiaInterface {
   List<EventListener> listeners = [];
